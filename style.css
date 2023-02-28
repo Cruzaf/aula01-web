@@ -1,0 +1,94 @@
+.rotating_earth{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.dancing_dog{
+    float: right;
+    opacity: 0;
+}
+.dancing_dog:hover{
+    opacity: 1;
+}
+body{
+    /*background: rgba(14, 32, 59, 0.9);*/
+    background-image: url("imgs/space_bg.jpg");
+    position: relative;
+}
+
+.title{
+    color: azure;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+h1{
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 230px;
+    margin: 0px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    line-height: 160px;
+    text-align: start;
+}
+.line{
+    font-size: 50px;
+    line-height: 80px;
+    margin-left: 10px;
+    color: rgb(33, 197, 134);
+}
+h2{
+    font-variant: small-caps;
+    font-family: Arial;
+    font-stretch: extra-expanded;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+h3{
+    font-variant: small-caps;
+    font-family: Arial;
+    font-stretch: semi-condensed;
+    margin: 0;
+    margin-left: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    overflow: hidden;
+    font-family: Arial;
+    font-variant: small-caps;
+    font-stretch: extra-expanded;
+    font-weight: bold;
+    border: 2px solid rgb(223, 235, 235);
+    border-radius: 5px;
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(33, 197, 134);
+}
+li a:hover:not(.active){
+    background-color: rgb(33, 197, 134);
+}
+.active{
+    background-color: rgba(33, 197, 134, 0.7);
+}
+.rocket{
+    position: absolute;
+    rotate:calc(40deg);
+    float: left;
+    display: inline-flex;
+}
