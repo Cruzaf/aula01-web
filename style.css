@@ -87,8 +87,23 @@ li a:hover:not(.active){
     background-color: rgba(33, 197, 134, 0.7);
 }
 .rocket{
+    scale: 0.7;
     position: absolute;
-    rotate:calc(40deg);
+    top: 0%;
+    left: 70%;
+    padding-top: 150px;
+    padding-left: 50px;
+    rotate:calc(20deg);
     float: left;
     display: inline-flex;
+    -webkit-animation: mover 4s infinite  alternate;
+    animation: mover 4s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0) translateX(0) translateZ(0); }
+    100% { transform: translateY(-20px) translateX(200px) translateZ(50px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0) translateX(0) translateZ(0); }
+    100% { transform: translateY(-20px) translateX(200px) translateZ(50px); }
 }
