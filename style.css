@@ -107,3 +107,6 @@ li a:hover:not(.active){
     0% { transform: translateY(0) translateX(0) translateZ(0); }
     100% { transform: translateY(-20px) translateX(200px) translateZ(50px); }
 }
+audio{
+    display: none;
+}
