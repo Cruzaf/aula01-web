@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AULA 01 - WEB</title>
+    <title>CURSO WEB</title>
 
     <style>
         .rotating_earth{
@@ -34,7 +34,7 @@
             font-family: Arial;
             font-stretch: extra-expanded;
             margin: 0;
-            margin-bottom: 50px;
+            margin-bottom: 5px;
         }
         h3{
             font-variant: small-caps;
@@ -42,9 +42,49 @@
             font-stretch: semi-condensed;
             margin: 0;
         }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: azure;
+            overflow: hidden;
+            font-family: Arial;
+            font-variant: small-caps;
+            font-stretch: extra-expanded;
+            font-weight: bold;
+            border: 2px solid rgb(223, 235, 235);
+            border-radius: 5px;
+        }
+        li {
+            float: left;
+        }
+        li a{
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: rgb(33, 197, 134);
+        }
+        li a:hover:not(.active){
+            background-color: rgb(33, 197, 134);
+        }
+        .active{
+            background-color: rgba(33, 197, 134, 0.7);
+        }
     </style>
 </head>
 <body>
+      
+    <ul>
+        <li><a class="active" href=#home>Início</a></li>
+        <li><a href=#>Aulas</a></li>
+        <li><a href=#>GitHub</a></li>
+        <li style="float: right"><a href=#>Sobre</a></li>
+    </ul>
+
     <div class="title">
     <h1>Desenvolvimento Web, Jogos e Mobile</h1>
     <h2>Aula 01</h2>
