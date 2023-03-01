@@ -13,9 +13,9 @@
     opacity: 1;
 }
 body{
-    /*background: rgba(14, 32, 59, 0.9);*/
-    background-image: url("imgs/space_bg.jpg");
-    position: relative;
+    background: rgba(14, 32, 59, 0.9);
+    /*background-image: url("imgs/space_bg.jpg");
+    position: relative;*/
 }
 
 .title{
